@@ -1,0 +1,7 @@
+transition:RamyaTanniru1@@
+pass:Bashipangu1ni
+medi:RamyaNithuBashipangu1
+pass:RamyaNithuBashipangu@@
+virtual id:iiht\b4ibmjava32
+password:pass@word1
+MySqlPassWord:RamyaNithuBashipangu@@1

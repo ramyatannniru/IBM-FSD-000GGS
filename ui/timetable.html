@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title>
+            time table
+        </title>
+        <style>
+        .ti-input{
+
+            border: 1px solid;
+
+        }
+
+        .ti-input-spacing{
+
+            display: block;
+
+            margin-left: 10px;
+
+            margin-top: 10px;
+
+        }
+        table{
+            height: "50%";
+            width:  "50%";
+            border: "1px",black;
+            margin-top: 20px;
+            
+            border-radius:8px;
+            align:"center"
+        }
+            body{
+                background-color: beige;
+            }
+          
+        
+
+        </style>
+        <script type="text/javascript" src="time.js">
+        </script>
+    </head>
+    <body>
+        <div>
+
+            <fieldset><legend>Add trainer</legend>
+
+            Id: <input type="number" min="1" max="100" id="tId" class="ti-input emp-input-spacing" placeholder="ID" required/>
+
+            Name: <input type="text" id="tName" class="ti-input ti-input-spacing" placeholder="Name" required/>
+           AvailTime: <input type="number" id="tTime" class="ti-input ti-input-spacing" placeholder="avail Time " required/>
+           <div>
+
+            <fieldset><legend>subjects </legend>
+
+                <select id="tSubjects" class="emp-input-spacing" >
+
+                    <option value="">-select-</option>
+
+                    <option value="maths" id="maths">maths</option>
+
+                    <option value="english" id="english">english</option>
+                    <option value="science" id="science">science</option>
+
+                    <option value="social" id="social">social</option>
+                    <option value="hindi" id="hindi">hindi</option>
+                    <option value="biology" id="biology" >biology</option>
+
+
+
+
+
+                </select>
+
+            </fieldset>
+
+        </div>
+    
+
+           
+            <input type="button" name="submit" value="submit" onclick= "load_Trainee()"/>
+            </fieldset>
+        </div>
+        <table id="tbl-trainee" border="2" cellspacing="3" align="center">
+
+            <thead>
+
+                <tr>
+
+                  <th colspan="2">Time available</th>                   
+
+                    <th colspan="2">8:30-9:30</th>
+
+                    <th colspan="2">9:30-10:30</th>
+
+                    <th colspan="2">10:30-11:30</th>
+                    
+                    <th colspan="2">11:30-12:30</th>
+                    <th colspan="2">1:30-2:30</th>
+                    
+                    <th colspan="2">2:30-3:30</th>
+                    
+                    
+
+                </tr>
+                
+
+            </thead>
+           
+            
+
+            <tbody id="tra-details">
+
+           
+
+            </tbody>
+
+        </table>
+
+        
+    </body>
+</html>
